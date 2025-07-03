@@ -1,0 +1,26 @@
+# Archivos de Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+.env # Si usas archivos de entorno local
+
+# Archivos de Terraform
+.terraform/
+*.tfplan
+*.tfstate # ¡MUY IMPORTANTE: NO SUBAS TU ARCHIVO .tfstate a GitHub público! Contiene información sensible.
+*.tfstate.backup
+crash.log
+.terraform.lock.hcl
+
+# Archivos de React
+build/ # Carpeta de build de tu frontend
+dist/ # Carpeta de build de Vite (si usas Vite)
+.vite/
+
+# Archivos de AWS Amplify
+amplify/
+amplifyconfiguration.json # ¡MUY IMPORTANTE: NO SUBAS ESTE ARCHIVO a GitHub público! Contiene IDs de recursos sensibles.
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="getMovies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mi-netflix-aws/backend/getMovies.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
